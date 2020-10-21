@@ -1,8 +1,7 @@
 # apache_exporter
 
-Prometheus exporter for monitoring apache
-
-## Installation
+Prometheus exporter for monitoring apache.
+It uses prometheus client library
 
 ### Requirements
 
@@ -10,6 +9,11 @@ Prometheus exporter for monitoring apache
 
 ## Usage
 
-## Developing
+- Clone the repo
+- Run `docker-compose up`
 
-### Requirements
+## Grafana Dashboard
+
+![Grafana Dashboard](docs/grafana_dashboard.png)
+
+
