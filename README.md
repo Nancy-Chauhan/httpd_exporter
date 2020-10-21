@@ -1,7 +1,8 @@
 # apache_exporter
 
 Prometheus exporter for monitoring apache.
-It uses prometheus client library
+
+It extracts data from apache logs and export to prometheus.
 
 ### Requirements
 
