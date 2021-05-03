@@ -1,8 +1,8 @@
-# apache_exporter
+# httpd_exporter
 
-Prometheus exporter for monitoring apache.
+Prometheus exporter for monitoring http servers from logs.
 
-It extracts data from apache logs and export to prometheus.
+It extracts data from http logs and export to prometheus.
 
 ### Requirements
 

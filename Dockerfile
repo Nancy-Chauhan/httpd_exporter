@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 COPY requirements.txt /usr/src/app
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY apache_exporter /usr/src/app/apache_exporter
+COPY httpd_exporter /usr/src/app/apache_exporter
 
 EXPOSE 8000
 
